@@ -1,0 +1,2 @@
+Pour pouvoir faire pointer intra.42.fr sur l'adresse 46.19.122.85, 
+il faut modifier l'IP du fichier /ect/hosts par 46.19.122.85 intra.42.fr
