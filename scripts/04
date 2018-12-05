@@ -1,0 +1,8 @@
+#!/bin/bash
+
+print_date()
+{
+echo "La date d'aujourd'hui est  `date +"%A %d %B %Y (%r)"`"
+return
+}
+print_date

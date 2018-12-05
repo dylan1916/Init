@@ -1,2 +1,3 @@
-sudo cat /etc/passwd | awk -F  ":" '{print $1 "   " $3 "   " $6}' | column -t
+#!/bin/bash
 
+cat /etc/passwd | awk -F ':' '{print "login: " $1 "\nuid: " $3 "\npath: "  $6 "\n\n"}'

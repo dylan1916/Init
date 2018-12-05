@@ -1,0 +1,3 @@
+Pour pouvoir se connecter en tant que nouvelle utilisateur en SSH, 
+il faut utiliser : ssh <name>@<ip>.
+Cependant en session graphique il faut utiliser un logiciel comme VNC pour se connecter au bureau a distance.

@@ -1,0 +1,2 @@
+ifconfig en0 | grep "broadcast"  | awk '{print $6}'
+ifconfig en0 | grep 'inet' | cut -d' ' -f2 | sed 's/%en0//g'
